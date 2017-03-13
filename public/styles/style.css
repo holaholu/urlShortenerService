@@ -1,0 +1,20 @@
+#myheader{
+    color:red;
+     box-shadow: -10px 10px 30px #000000;
+     margin-top:30px;
+}
+
+#mybody{
+    color: blue;
+    background-color:#B3A1CF;
+}
+
+.specols{
+    color:red;
+}
+
+#myexam{
+     box-shadow: -10px 10px 30px #000000;
+    border:solid red 1px;
+    
+}
