@@ -5,7 +5,9 @@
   "main": "server.js",
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "mongoose": "^4.9.0",
+    
   },
   "devDependencies": {},
   "scripts": {
@@ -13,13 +15,12 @@
     "start": "node server.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/holaholu/TimeStamp-Microservice.git"
+    
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/holaholu/TimeStamp-Microservice/issues"
+    
   },
-  "homepage": "https://github.com/holaholu/TimeStamp-Microservice#readme"
+ 
 }
