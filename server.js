@@ -10,8 +10,14 @@ app.get('/', function (req, res) {
 })
 
 
-app.get('/:id', function (req, res) {              
+app.get('/new/:id', function (req, res) {              
+               var id=req.params.id;
+               var myjson= {
+                              "original_url": id,
+                              "short_url": "shortened here"
+                            }
                
+               res.json(myjson);
 });
 
 

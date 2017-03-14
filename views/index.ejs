@@ -8,17 +8,14 @@
         
         <div class=container>
             <div class=col-md-12 id=myheader>
-                <span class="text-center" ><h1>JSON API : Timestamp Microservice</h1></span>
+                <span class="text-center" ><h1>JSON API : Legendary URL Shortener Microservice</h1></span>
             </div>
             <div class=col-md-12>
                 <h2>User stories: </h2>
                 <ul>
-                    <li><h3>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)
-                           </h3> </li>
-                    <li> <h3>If it does, it returns both the Unix timestamp and the natural language form of that date.
-                              </h3>  </li>
-                    <li> <h3>If it does not contain a date or Unix timestamp, it returns null for those properties.
-                          </h3></li>
+                    <li><h3>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response. </h3> </li>
+                    <li> <h3> When I visit that shortened URL, it will redirect me to my original link.</h3>  </li>
+                   
                 </ul>
                 
                 
@@ -28,33 +25,55 @@
                 
                 <div class=col-md-8>
                 
-                <span><h3>Example usage:</h3></span>
+                <span><h3>Example URL shortening usage:</h3></span>
                 <div class=specols>
                     
                     <div >
-                      https://mysterious-meadow-65952.herokuapp.com/December%2015,%202015
+                    https://little-url.herokuapp.com/new/https://www.google.com
                 </div>
-                <div>
-                      https://mysterious-meadow-65952.herokuapp.com/1450137600
-                </div>
+               
                     
                 </div>
                 
-          
-          
-           
-            </div>
+           </div>
             
             
             <div class=col-md-8>
                 <span><h3>Example output:</h3></span>
                 <div class=specols>
-                    { "unix": 1450137600, "natural": "December 15, 2015 " }
+                   { 
+                   "original_url":"https://google.com",
+                   "short_url":"https://little-url.herokuapp.com/8170" 
+                   }
                     
                 </div>
             
                 
             </div>
+            
+             <div class=col-md-8>
+                <span><h3>Usage : Go to</h3></span>
+                <div class=specols>
+                  https://little-url.herokuapp.com/8170 
+                
+                    
+                </div>
+            
+                
+            </div>
+            
+             <div class=col-md-8>
+                <span><h3>Will redirect to </h3></span>
+                <div class=specols>
+              https://google.com
+                
+                    
+                </div>
+            
+                
+            </div>
+                
+                
                 
                 
                 
