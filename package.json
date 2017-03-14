@@ -1,16 +1,25 @@
 {
-  "name": "timestamp",
+  "name": "urlshort",
   "version": "1.0.0",
-  "description": "for free code camp",
-  "main": "index.js",
+  "description": "This projects creates a Timestamp Microservice",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "O.Adisa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holaholu/TimeStamp-Microservice.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.2"
-  }
+  "bugs": {
+    "url": "https://github.com/holaholu/TimeStamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/holaholu/TimeStamp-Microservice#readme"
 }
