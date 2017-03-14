@@ -1,26 +1,17 @@
 {
-  "name": "urlshort",
+  "name": "UrlShortener",
   "version": "1.0.0",
-  "description": "This projects creates a Timestamp Microservice",
-  "main": "server.js",
+  "description": "for free code camp",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "node server.js"
+  },
+  "author": "O.Adisa",
+  "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.15.2",
-    "mongoose": "^4.9.0",
-    
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    
-  },
- 
+     "mongoose": "^4.9.0"
+  }
 }

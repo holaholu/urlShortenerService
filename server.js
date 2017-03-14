@@ -26,8 +26,6 @@ app.get('/', function (req, res) {
 
 app.get('/:id', function (req, res) { 
    
-    
-    
     var id=req.params.id;
     if (/^[0-9]{4}$/g.test(id)|| /^[0-9]{5}$/g.test(id)) {
         
@@ -53,13 +51,6 @@ app.get('/:id', function (req, res) {
     
     
 });
-
-
-
-
-
-
-
 
 
 app.get('/new/:id//:id2', function (req, res) {              
@@ -119,20 +110,12 @@ app.get('/new/:id//:id2', function (req, res) {
                           }
                           
                     
-                     } })}
-                 
-                  
-   } 
-
-
-
-
+                     } })}}
+ 
 );
 
 
 app.get("*", function (req, res) {
-    
-    
     
     res.json(myjson);
     
