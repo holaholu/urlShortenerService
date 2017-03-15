@@ -76,7 +76,7 @@ app.get('/new/:id//:id2', function (req, res) {
                               //site already exist,provide link
                                resultjson= {
                                               "original_url": id,
-                                              "short_url": "https://fcc-codes-memristor.c9users.io/"+ website[0].code
+                                              "short_url": "https://liturl.herokuapp.com/"+ website[0].code
                                       }
               
                               res.json(resultjson);
@@ -99,7 +99,7 @@ app.get('/new/:id//:id2', function (req, res) {
                                
                                 resultjson= {
                                               "original_url": id,
-                                              "short_url": "https://fcc-codes-memristor.c9users.io/"+ storeval.code
+                                              "short_url": "https://liturl.herokuapp.com/"+ storeval.code
                                       }
               
                               res.json(resultjson);
